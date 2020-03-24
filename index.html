@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Task for Stage 1</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>First Web Page</h1>
-    <p>Kindly do exactly what you see here as it would affec you score <br>
-    Whether it is your first webpage in life or not, use the heading above it won't bite..</p>
-    <h2>H2 Heading</h2>
-    <p>As a best practice, your webpage should have just one</p>
-    <p> &lt;h1&gt; &lt;/h1&gt; element </p>
-    <h3>h3 Heading</h3>
-    <p>This test is too simple to fail.<br>
-    It is simply a test of how much you have been following the course.</p>
-    <p>Thanks.. Wait..<br>
-    You will have to upload this project to github .. Yea.</p>
-    <h4>H4 Heading</h4>
-    <p>Use the file structure that will be shown here below</p>
-    <pre>:::first_webpage:::</pre>
-    <pre style="margin-left: 60px;">|________:::index.html:::</pre>
-    <pre style="margin-left: 60px;">|________:::style.css:::</pre>
-    <pre style="margin-left: 60px;">|________:::script.js:::</pre>
+    
 </body>
+<script>
+    //JSTask1 for Jeff Ogah
+let myName = "Frankpeter Ani";
+let myCourses = ["HTML", "CSS", "JavaScript", "UI/UX"];
+
+console.log(myName);
+console.log(myCourses);
+
+function checkEvenAndOdd(arr){
+    let courses = []
+    let lengthOfArr = arr.length;
+    if(lengthOfArr % 2 === 0){
+        for (let i = 0; i <= 200; i++){
+            if (i % 2 === 0){
+            courses.push(i);
+    }
+        }
+    }else{
+        for (let i = 0; i <= 200; i++){
+            if (i % 2 !== 0){
+            courses.push(i);
+    }
+        }
+    }
+
+    console.log(courses);
+}
+checkEvenAndOdd(myCourses)
+</script>
+
 </html>
