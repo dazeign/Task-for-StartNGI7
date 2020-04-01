@@ -38,3 +38,10 @@ img:nth-child(4){
 svg{
     margin: 2.5% 44.6% 2% 44.6%;
 }
+.formContainer{
+    background-color: white;
+    width: 20%;
+    margin: 0% 40% 10% 37.5%;
+    padding: 2.5%;
+    border-radius: 20px 20px 20px 0;
+}
