@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #062863;
+}
+
+/* .wrapper{
+background-color: #062863;
+height: 100vh;
+width: 100vw;
+}
+img:nth-child(1){
+    position: absolute;
+    left: -120px;
+    top: -120px;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    min-height: fit-content;
+}
+img:nth-child(2){
+    position: absolute;
+    left: 90%;
+    top: -120px;
+}
+img:nth-child(3){
+    float: left;
+    position: absolute;
+    left: -120px;
+    top: -120px;
+}
+img:nth-child(4){
+    float: left;
+    position: absolute;
+    left: -120px;
+    top: -120px;
+} */
+svg{
+    margin: 2.5% 44.6% 2% 44.6%;
+}
