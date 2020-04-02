@@ -1,2 +1,3 @@
 # HTML-task-for-StartNG
-This is the second task for StartNG Internship program...
+This is the official repo for my tasks at StartNG
+Slack Username: daze
