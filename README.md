@@ -1,3 +1,1 @@
-# HTML-task-for-StartNG
-This is the official repo for my tasks at StartNG
-Slack Username: daze
+This is the official repo for startNG i7
