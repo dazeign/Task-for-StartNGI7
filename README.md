@@ -1,3 +1,3 @@
-# HTML-task-for-StartNG
-This is the second task for StartNG Internship program...
-The JS task is the index.html file
+
+This is the official repo for startNG i7
+
