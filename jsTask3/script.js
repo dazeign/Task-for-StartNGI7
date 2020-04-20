@@ -25,3 +25,4 @@ function checkDivisible(num) {
   }
   
   checkDivisible(100);
+  checkDivisible(20);
