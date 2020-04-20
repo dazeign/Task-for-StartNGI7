@@ -24,5 +24,8 @@ function checkDivisible(num) {
     console.log(outputArray);
   }
   
+
+
+  
   checkDivisible(100);
   checkDivisible(20);
