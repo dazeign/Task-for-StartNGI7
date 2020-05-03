@@ -11,7 +11,6 @@
 }
 body{
     font-family: 'Geo', sans-serif;
-    --hue: var(--hue-neutral);
     padding: 0;
     margin: 0;
     display: flex;
@@ -19,7 +18,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: gray;
 }
 
 body.correct{
