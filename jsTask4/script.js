@@ -103,10 +103,13 @@ const questions = [
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Who is the Baba Isale awon Boys and Girls in StartNG Internship',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'Jeff', correct: false },
+      { text: 'Kingabesh', correct: false },
+      { text: 'Xyluz', correct: true },
+      { text: 'Khris', correct: false },
+      { text: 'Phileo', correct: false }
     ]
   }
 ]

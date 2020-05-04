@@ -18,22 +18,36 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: gray;
+    background-color: rgb(8, 2, 37);
 }
-
-body.correct{
-    --hue: var(--hue-correct);
+h1{
+    display: block;
+    position: absolute;
+    top: 250px;
+    color: #940030;
 }
-body.wrong{
-    --hue: var(--hue-wrong);
+h2{
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+}
+h1 span{
+    font-size: 22px;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    color: #7c1b2b;
 }
 .container{
-    background-color: white;
+    background-color: #E0E0E0;
     width: 80%;
     max-width: 80%;
     border-radius: 10px;
     padding: 2.5%;
     box-shadow: 0 8px 6px -6px black;
+    font-family: 'Geo', sans-serif;
+    font-size: 22px;
 }
 .btn-grid{
     display: grid;
@@ -42,16 +56,20 @@ body.wrong{
 }
 .btn{
     --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100%, 50%);
+    border: 3px solid #273B7A;
+    background-color: #121149;
     border-radius: 5px;
     padding: 1.5% 2.5%;
     color: white;
+    font-family: 'Geo', sans-serif;
     outline: none;
+    font-size: 18px;
 }
 
 .btn:hover{
-    border-color: black;
+    border-color: #121149;
+    background-color: #273B7A;
+    transition: .8s;
 }
 .btn.correct{
     --hue: var(--hue-correct);
@@ -60,17 +78,24 @@ body.wrong{
 .btn.wrong{
     --hue: var(--hue-wrong);
 }
+.smallBall{
+    width: 30px;
+    color: white;
+}
 .start-btn, .next-btn{
     font-size: 24px;
     font-weight: bold;
     padding: 1.5% 6%;
     width: 30%;
+    display: flex;
+    justify-content: space-between;
 }
 .controls{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-family: 'Geo', sans-serif;
 }
 .hide{
     display: none;
